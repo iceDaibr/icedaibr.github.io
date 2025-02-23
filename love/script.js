@@ -31,7 +31,7 @@ confirmNameButton.addEventListener('click', function () {
     // 给按钮容器添加动画类名
     buttonsContainer.classList.add('slide-up-fade-in');
     // 将用户名添加到问题文本
-    questionText.innerText = `可以成为我的恋人吗？${safeUsername}`;
+    questionText.innerText = `可以成为我的好朋友吗？${safeUsername}`;
 });
 
 let clickCount = 0; // 记录点击 No 的次数
