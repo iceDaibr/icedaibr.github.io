@@ -1,0 +1,75 @@
+body {
+    background-color: rgb(167, 250, 253);
+}
+p,h2,h1,h6,input,button{
+    text-align: center;
+}
+a{
+    color:rgb(3, 192, 250);
+    }
+a:hover{
+    color:#318f92;
+    }
+a:active{
+    color:#251e8b;
+    }
+    #menu {
+        width: 360px;
+        height: 30px;
+        margin: 0px auto;
+		float: left;
+    }
+    #menu li {
+        text-align: center;
+        list-style-type: none;
+        float: left;
+    }
+    #menu li a {
+        width: 65px;
+        height: 20px;
+        line-height: 20px;	
+        color: #FFF;
+        text-align: center;
+        margin-left: 13px;
+        margin-right: 4px;
+        float: left;
+    }
+    #menu li a:link,#menu li a:visited{
+        border: solid 1px #0099FF;
+        background-color: #FFF;
+        color: #4287ca;
+        text-decoration: none;
+        filter: Alpha(Opacity=90);
+    }
+    #menu li a:hover {
+        border: solid 1px #F90;
+        background-color: #39F;
+        color:#FFF;
+        text-decoration: none;
+        filter: Alpha(Opacity=90);
+    }
+    *{margin:0;padding: 0;}
+   ul{
+       list-style-type: none;
+       overflow: hidden;
+       background-color: rgb(45, 230, 91);
+       position: fixed;
+       top: 0;
+       width: 100%;
+   }  
+   li {
+       float: left;
+   }   
+   li a {
+       display: block;
+       color: white;
+       text-align: center;
+       padding: 10px 16px;
+       text-decoration: none;
+   }   
+   li a:hover:not(.active) {
+       background-color: red;
+   }   
+   .active {
+       background-color: yellow;
+   }
